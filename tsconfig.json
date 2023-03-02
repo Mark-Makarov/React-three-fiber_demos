@@ -28,6 +28,7 @@
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "types": [],
     "paths": {
+      "@/*": ["/*"],
       "api/*": ["api/*"],
       "assets/*": ["assets/*"],
       "components/*": ["components/*"],

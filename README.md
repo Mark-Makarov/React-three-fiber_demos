@@ -1,11 +1,11 @@
 <h1>Скелетон для React приложения</h1>
 
-1) Yarn
-2) Vite
-3) Typescript
-4) Eslint & Prettier 
-5) Types for assets
-6) Alias for src directories
+1. Yarn
+2. Vite
+3. Typescript
+4. Eslint & Prettier
+5. Types for assets
+6. Alias for src directories
 
 <h3>Ps от автора</h3>
 Оставляйте предложения по исправлению/дополнения конфига, в issues

@@ -1,13 +1,9 @@
-import './index.css';
-
-import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './App';
+import { Canvas } from 'react-three-fiber';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Canvas>
+    <Scene />
+  </Canvas>,
   document.getElementById('root'),
 );

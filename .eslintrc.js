@@ -13,8 +13,13 @@ module.exports = {
       version: 'detect',
     },
     'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+      typescript: {},
       node: {
-        paths: ['src'],
+        paths: ['src', '@'],
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
